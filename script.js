@@ -12,33 +12,6 @@ function scrollToId(event){
   window.scroll(0, to);
 }
 
-const WorksList = document.querySelectorAll('.movieslist')
-
-WorksList.forEach(item =>{
-  item.addEventListener('mouseover', Hide);
-  console.log(item.id)
-});
-
-console.log(WorksList[0])
-
-console.log(WorksList)
-
-function Hide(){
-  if(item.id === 'movie1'){
-    item.style.display = 'none';
-  }
-}
-
-function Show(){
-  if(true){
-  }
-}
-const h1Men = document.getElementById('h1main')
-const teste = document.getElementById('h1main').addEventListener('click', functionTeste)
-
-function functionTeste(){
-  h1Men.style.display = 'none'
-}
 
 const imagesGallery = document.querySelectorAll('#gallery');
 const nxtBtn = [...document.querySelectorAll('.arrow-right')];
@@ -57,5 +30,25 @@ imagesGallery.forEach((item, i) => {
   });
 });
 
+// const WorksList = document.querySelectorAll('.movieslist')
 
+// WorksList.forEach(item =>{
+//   item.addEventListener('mouseover', Hide);
+//   console.log(item.id)
+// });
+
+// console.log(WorksList[0])
+
+// console.log(WorksList)
+
+// function Hide(){
+//   if(item.id === 'movie1'){
+//     item.style.display = 'none';
+//   }
+// }
+
+// function Show(){
+//   if(true){
+//   }
+// }
 

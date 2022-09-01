@@ -326,21 +326,11 @@ footer > p{
 
 @media (min-width:601px) and (max-width: 1000px){
     #mainimg{   
-    z-index: 15;
-    position: absolute;
     max-width: 40vh;
-    width: 100%;
-    border-radius: 17%;
     margin: auto;
     top:  70vh;
-    bottom: 0;
-    left: 0;
-    right: 0;
     }   
     #tv{
-        position: relative;
-        z-index: 14;
-        background-color: antiquewhite;
         min-height: 100vh;
         max-width: 100vw;
         display: flex;
@@ -357,9 +347,6 @@ footer > p{
         line-height: 5.7vh;
     }
     #magazine{
-        position: relative;
-        z-index: 12;
-        background-color: antiquewhite;
         min-height: 50vh;
         max-width: 100vw;
         width: 100%;
@@ -381,10 +368,8 @@ footer > p{
         width: 90vw;
     }
     h2{
-        margin: 0;
         font-size: 20vw;
         letter-spacing: 0.2vw;
-        color: rgb(131, 67, 67) ;
     }
     #navsec > li{
         font-size: 7vw;
@@ -403,47 +388,21 @@ footer > p{
     }
 
     #h1main{
-        position: fixed;
-        display: flex;
         align-items:flex-start;
         justify-content: center;
-        font-family: 'Anton', sans-serif;
         font-size: 50vw;
         letter-spacing: 3vw;
-        color: rgb(131, 67, 67);
-        max-width: 100vw;
-        height: 50vh;
-        text-align: center;
-        margin: 0;
-        left: 1.8vw;
-        right: 0;
-        top: 0;
-        bottom: 0;
     }
 
     #mainimg{
-        z-index: 15;
-        position: absolute;
         max-width: 40vh;
         width: 100%;
-        border-radius: 17%;
-        margin: auto;
         top:  50vh;
-        bottom: 0;
-        left: 0;
-        right: 0;
-    
     }
 
     #tv{
-        position: relative;
-        z-index: 14;
-        background-color: antiquewhite;
         min-height: 100vh;
         max-width: 100vw;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
         padding-left: 2vw;
         padding-top: 0;
         padding-bottom: 25vh;
